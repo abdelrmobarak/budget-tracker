@@ -1,12 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  color-scheme: dark;
-}
+@import "tailwindcss";
 
 body {
   margin: 0;
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  overflow: hidden;
 }
