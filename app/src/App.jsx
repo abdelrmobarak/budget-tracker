@@ -5,7 +5,7 @@ import BudgetPage from './pages/BudgetPage';
 export default function App() {
   return (
     <HashRouter>
-      <div className="min-h-screen bg-slate-100 px-6 py-10 text-slate-900">
+      <div className="min-h-screen min-w-[480px] overflow-x-auto bg-slate-100 px-6 py-10 text-slate-900">
         <div className="mx-auto w-full max-w-5xl">
           <header className="mb-12">
             <Routes>
